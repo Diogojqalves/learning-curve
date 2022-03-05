@@ -1,0 +1,14 @@
+O(n!)
+O(n^2) -> == selection sort and quicksort (worst case)
+O(n log n) -> == merge sort and quicksort (best case)
+O(n) -> == linear search (number of elements = number of operations) /
+O(log n) -> == binary search and quicksort
+
+
+n = number of elements
+
+BIG O Notation
+
+- Tells you number of times an operation is performed.
+- Doesn´t describe duration of operation.
+- A usefull tool for quickly describing how the run time of an algorithm increases as the data set it´s operating on gets really, really big.

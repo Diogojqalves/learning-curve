@@ -1,0 +1,3 @@
+npm install axios
+
+<script src="https://unpkg.com/axios/dist/axios.min.js" defer></script> //defer if you import on the Head section

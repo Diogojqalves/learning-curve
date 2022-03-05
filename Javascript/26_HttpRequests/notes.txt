@@ -1,0 +1,2 @@
+fetch is more modern and easy, error handle is harder, not supported by all browsers
+xml user friendly error handle

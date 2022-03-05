@@ -1,0 +1,5 @@
+install node.js
+npm install -g serve
+
+to start server on the terminal:
+serve

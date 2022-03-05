@@ -1,0 +1,31 @@
+# API - Application Programming Interface: Set a tools for developers to access data;
+
+Interface: Phisical or Graphic (Ex: a digital clock, a button on a ipod - Made for the user;
+
+# Web base API:
+Example python fuction .upper(), local to the codebase;
+Programming language = interface;
+
+Remote API (ex: a drone being controlled by a phone app; Shazam app - your phone doesn´t store the information about all the songs, the API does the searching and processing very fast)
+Allows Computacional Power (Ex: Google live camera translator on any phone);
+
+RESTAPI - Representational State Transfer: the winner of APIS;
+Web Works:
+Client Browser creates an Http GET (example) Request [Hyper Text Transfer Protocol (Communication Contract)] 
+------> Server receives the request, does The work, generates a result a sends the response (Body) to the Client;
+
+Request and Response = HEADER Fields which allows caching
+
+HTTP Verbs: GET (read); POST (create); PUT(update); PATCH(update); DELETE (delete) = CRUD
+
+REST - Constraint Scavenger Hunt:
+Required Constraints for an API to be considered RESTFULL:
+- Client-Server Architecture: Program/Client ------ HTTP REQUEST ------> Server;
+- Statelessness: Server doesn´t remember anything about the client; to remember you need Headers
+- Layered System: call´s other api´s;
+- Cacheability: Cache by paying attention to the headers and responding propely;
+- Uniform Design: Resource identification in requests; Resource manipulation through representations; Self-descriptive messages; HATEOAS - Hypermedia as the engine of application state;
+- Code on Demand (optional): return code that is runnable;
+
+
+

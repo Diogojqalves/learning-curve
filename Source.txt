@@ -1,0 +1,2 @@
+To create this personal library, i followed several freeCodeCamp (youtube channel) tutorials, from which i took notes and code along: 
+https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ

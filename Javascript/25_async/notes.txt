@@ -1,0 +1,3 @@
+js synchronous means it can olny run one function at a time, step by step, in order
+
+The solution is asynchronous code execution

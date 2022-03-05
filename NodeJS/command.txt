@@ -1,0 +1,5 @@
+node -v
+
+node app.js
+
+npm run start

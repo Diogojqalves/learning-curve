@@ -1,0 +1,12 @@
+pip install -r requirements.txt
+python -m pip install requests
+
+to run server:
+python main.py 
+
+#Resource
+create class to inherite from Resource to handle GET/PUT...Requests
+register the class as a resource api.add_resource method and define the url
+ 
+#Test, GET and POST Request
+test.py

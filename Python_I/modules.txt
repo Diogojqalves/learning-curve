@@ -1,0 +1,10 @@
+https://docs.python.org/3/py-modindex.html
+
+How to install external modules:
+Example:
+https://python-docx.readthedocs.io/en/latest/
+
+#On the terminal:
+pip install python-docx
+ 
+# pip é um package manager

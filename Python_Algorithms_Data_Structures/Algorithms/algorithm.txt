@@ -1,0 +1,30 @@
+# Algorithm is a set set of steps or instructions for completing a task, e.g a recipe or a to do list
+# Algorithmic Thinking, look at a problem, identifiy the different Solutions (Algorithms) and choose the one with the best steps
+
+# steps
+Identifiy the problem statement (Input and Output)
+The steps in the Algorithm need to be in a very specific order
+The steps also need to be distinct
+The algorithm should produce a result
+The algorithm should complete in a finite amount of time
+
+#Algorithm Types:
+Linear/Simple Search (Sequence ++i) = Linear Time
+Binary Search (On a sorted List it starts in the middle (50%) and tries do discard the maximum number of values to get the result faster, cresates a new list with the remaing values and applies again the 50%)
+Recursive Binary Search (Tail recursion - Tail call optimization)
+
+Its all about context
+#Correctness and Efficiency (Time and Space complexity - Optimal Duration and Memory usage)
+
+
+
+# We need to test the algorithm types with N number of results
+#BIG O - theoretical definition of the complexity of an algorithm as a function of size
+O(n) - Order of magnitude of complexity / a function of the size / Upper bound of the algorithm (worst case scenario performance)
+O(1) = constant time 
+
+n! = factorial ex: 4! = 4 * 3 * 2 * 1 = 24
+O(n!)
+
+# Logarithmic Runtime
+O(log n)

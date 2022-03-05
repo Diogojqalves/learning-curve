@@ -1,0 +1,21 @@
+Browser console
+Type document or window to get the object
+
+document.body => Selects the <body> element node.
+document.head => Selects the <head> element node.
+
+document.documentElement => Selects the <html> element node
+
+$0    = returns first element of the html file
+
+document.getElementById("main-title")
+document.getElementsByClassName('list-item')    = collection object
+document.querySelector('.list-item')    = return the first CSS matching item
+document.querySelectorAll('.list-item')    = return all CSS matching items
+document.querySelector('ul li:first-of-type)    = return first list item
+document.querySelector('ul li:last-of-type)    = return last list item
+
+<script src="app.js" defer></script>   on the head so its downloaded early but "defer" so its only runs after html is parsed
+otherwise you need to import on the end of the body
+
+

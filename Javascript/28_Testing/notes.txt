@@ -1,0 +1,30 @@
+Code --> Expected Result --> Test (automate and simplify) --> Sucess or Failure
+
+Why test?
+- Get an error if you break code;
+- Save time;
+- Think about possible issues & bugs;
+- Integrate into build workflow;
+- Break up complex dependencies;
+- Improve your code.
+
+Type of tests:
+- Automated Tests:
+    *Unit tests --> Fully isolated (e.g. testing one function); //write thousands of these!
+    *Integration tests --> With Dependencies (e.g. testing a function that calls a function); //write a good couple of these
+    *End-to-End (E2E) Tests --> Full Flow (e.g. validating a DOM after a click); //write a few of these;
+
+Testing Setup:
+- Test Runner:
+    *Execute your test, summarize results;
+    *e.g. Mocha;
+
+- Assertion Library:
+    *Define testing logic, conditions;
+    *e.g. Chai;
+
+Test runner + Assertion = Jest (npm install --save-dev jest)
+
+- Headless Browser:
+    *Simulates browser interaction;
+    *e.g. Puppeteer;

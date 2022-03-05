@@ -1,0 +1,12 @@
+# Data Structures = way of storing data when programming
+
+
+#Array as DS = contiguos data structure
+array [a, b, c] = index value
+
+#Operations
+Access and read values
+Search for an arbitrary values
+Insert values at any point into the structure
+Delete values in the structure
+

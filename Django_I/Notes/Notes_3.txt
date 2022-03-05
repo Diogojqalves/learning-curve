@@ -1,0 +1,10 @@
+#Django Model Forms
+Inside the app create forms.py file
+create model form class
+Import inside views.py
+Create html file to rend form
+add path to urls
+
+#Form widget = overwrite html
+#Form validation
+#Dinamic url routing wioth def dynamic_lookup_view on views.py and urls.py

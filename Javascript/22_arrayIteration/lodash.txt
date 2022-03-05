@@ -1,0 +1,6 @@
+js library with borad variety functions with many functions
+ex: array iteration
+
+download full build file and add as lodash.js, import script
+alternative : cdn, script=link
+npm -i lodash

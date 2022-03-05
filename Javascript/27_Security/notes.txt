@@ -1,0 +1,38 @@
+# Browser Side
+
+Security Details in the code:
+
+- Your JS code can be read by ANYONE;
+- Security-revelant details/data shouldn´t be in your code;
+- Protect DataBase credentials.
+- Attackers may be able to abuse exposed data.
+
+
+
+Cross-Site Scripting Attacks (XSS):
+
+- Client/Browser-side issue
+- Where malicious JS code gets injected + executed;
+- Ex: Unchecked user-generated content;
+- You can use sanitize (on the server/not browser) package to avoid html malicious code and validate user input.
+- npm install sanitize-html
+- Example:
+        Before: headerTitleEl.innerHtml = address;
+        After: headerTitleEl.innerHtml = sanitizeHtml(address);
+
+- Check malicious code from third party packages by analysing their code.
+
+
+
+Cross-Site Request Forgery (CSRF):
+- Server Side issue;
+- Depends on injected content (JS, HTML...);
+- Requests to malicious servers are made with user cookies;
+- Action can be executed without the user knowing;
+
+
+Cross-Origin Resource Sharing (CORS):
+- Security Concept;
+- Request are only allowed from same origin (domain);
+- Controlled via server-side response headers and browser;
+- Example: Javascript Modules
